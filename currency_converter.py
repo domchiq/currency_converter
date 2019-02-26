@@ -1,5 +1,4 @@
 import argparse
-import requests
 from currency_converter_core import currency_converter
 
 """
