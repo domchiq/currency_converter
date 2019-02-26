@@ -33,7 +33,7 @@ if __name__ == '__main__':
     
     #if api call was not successfull program will stop running with a printed message that error has occured
     if requestUnsuccessfull:
-        print ('Something wnt wrong during request')
+        print ('Something went wrong during request')
     #if output_currency was specified
     elif args.output_currency != None and args.output_currency in supportedCurrencies and args.input_currency in supportedCurrencies:
         #as all exchange rates are converted to EUR we need to find the rate requested using formula (1 EUR to output_currency)/(1 EUR to input_currency)
