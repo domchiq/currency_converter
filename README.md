@@ -37,11 +37,13 @@ http://localhost/currency_converter?amount=10&input_currency=EUR&output_currency
 ```
 ### App functionality
 Input arguments
+
     - amount (float) - how much we want to convert
     - input_currency (3 letter string) - currency we want to convert
     - output_currency - (3 letter string) - currency input_currency should be converted to
 
 Output
+```sh
 { "input": { "amount": <amount>, "currency": "<input_currency>" }, "output": { "<outpu_currency>": <converted amount> } }
-
+```
 If output_currency is not specified input_currency is converted to all covered currencies.
