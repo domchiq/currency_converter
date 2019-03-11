@@ -14,4 +14,4 @@ RUN pip3 install -r /app/requirements.txt
 EXPOSE 80
 
 #run the app when container starts
-CMD ["python3", "WEB_Converter.py"]
+CMD ["python3", "currency_converter_API.py"]
