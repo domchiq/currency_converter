@@ -25,6 +25,10 @@ and run it
 ```sh
 docker run -p 80:80 currency_converter
 ```
+You can also pull the image from Docker Hub
+```sh
+docker run -p 80:80 domchiq/currency_converter:part1
+```
 You can also run the web api locally without using Dockerfile. 
 ```sh
 pip3 install flask
